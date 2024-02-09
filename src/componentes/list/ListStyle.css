@@ -1,0 +1,65 @@
+.lista-titulo > h1 {
+    font-size: 30px;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.lista-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.397) 0px 3px 8px;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+    gap: 20px;
+}
+
+.title-category {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 0 20px;
+    width: 100%;
+    gap: 5px;
+}
+
+.title-category  > h4 {
+    font-size: 1.1rem;
+}
+
+.bnt-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.bnt-card > button:nth-child(2) {
+    background-color: rgb(243, 108, 149);
+}
+
+@media only screen and (min-width: 420px) {
+    .content-card {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,50 @@
+.filter-div-principal {
+    width: 100%;
+}
+
+.filtros-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.div-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.ordem-alfabetica {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.ordem-alfabetica > button:nth-child(1) {
+    background-color: rgba(58, 157, 182, 0.699);
+}
+
+.ordem-alfabetica > button:nth-child(2) {
+    background-color: rgba(147, 58, 182, 0.699);
+}
+
+@media only screen and (min-width: 600px) {
+    .filter-div-principal {
+        display: flex;
+       align-items: center;
+       justify-content: center;
+        gap: 10px;
+    }
+
+    .filtros-container {
+        gap: 8px;
+    }
+
+    .ordem-alfabetica { 
+        gap: 5px;
+    }
+}
